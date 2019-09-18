@@ -2,3 +2,13 @@
 • What does fast-forward in Git mean?
 • Why should you have different branches?
 • In a project how many remote Git repositories do you usually have?
+
+
+
+1)Gitignore file maintains the list of files or their extensions which are to be omitted by git when performing a commit. In case of a java project it includes .class, .jar, .war, .ear and .nar files.
+
+2)In the case where the merged branch has more commits than the checkout branch the checkout branch is fast forwarded without any additional commits.
+
+3)Maintaing different branches is advisable to avoid any damages to the master code . This comes handy in case of multiple users.
+
+4)Usually there is a single repository for a project. 
